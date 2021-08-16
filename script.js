@@ -33,7 +33,7 @@ user1.boo.bind(user3)();
 
 let Allusersinfo = [];
 let Allusers = {
-  surname: (document.getElementById("yr").value,
+  surname: document.getElementById("yr").value,
   age: document.getElementById("age").value,
   address: document.getElementById("address").value,
 };
