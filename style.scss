@@ -1,0 +1,22 @@
+form {
+  border: 1px solid red;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  label {
+    font-size: 25px;
+  }
+  input {
+    border-radius: 25px;
+    border: 1px solid;
+    &::placeholder {
+      text-indent: 8px;
+    }
+  }
+  button {
+    margin-top: 25px;
+  }
+}

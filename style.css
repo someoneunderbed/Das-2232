@@ -1,0 +1,43 @@
+form {
+  border: 1px solid red;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+
+div label {
+  font-size: 25px;
+}
+
+div input {
+  border-radius: 25px;
+  border: 1px solid;
+}
+
+div input::-webkit-input-placeholder {
+  text-indent: 8px;
+}
+
+div input:-ms-input-placeholder {
+  text-indent: 8px;
+}
+
+div input::-ms-input-placeholder {
+  text-indent: 8px;
+}
+
+div input::placeholder {
+  text-indent: 8px;
+}
+
+div button {
+  margin-top: 25px;
+}
+/*# sourceMappingURL=style.css.map */
